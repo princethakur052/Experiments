@@ -1,0 +1,171 @@
+/* 1. Universal Selector */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* 2. HTML Tag */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 3. Body Tag */
+body {
+  background-color: #eaf2f8;
+  margin: 0;
+  padding: 30px;
+}
+
+/* 4. Form Tag */
+form {
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 5. Fieldset Tag */
+fieldset {
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+/* 6. Legend Tag */
+legend {
+  color: #2471a3;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+/* 7. Label Tag */
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 7px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* 8. Input Tag */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+/* 9. Text, Email, Password, Date Inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  background-color: #f8f9fa;
+}
+
+/* 10. Input Focus */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border: 2px solid #3498db;
+}
+
+/* 11. Select Tag */
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  font-size: 15px;
+}
+
+/* 12. Option Tag */
+option {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+/* 13. Gender Group Div */
+.gender-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+/* 14. Radio Button */
+input[type="radio"] {
+  width: auto;
+  accent-color: #3498db;
+}
+
+/* 15. Gender Labels */
+.gender-group label {
+  display: inline;
+  margin: 0;
+  font-weight: normal;
+}
+
+/* 16. Textarea Tag */
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  font-size: 15px;
+  resize: vertical;
+}
+
+/* 17. File Upload Input */
+input[type="file"] {
+  background-color: #f8f9fa;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* 18. Submit Button */
+input[type="submit"] {
+  background-color: #2874a6;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+/* 19. Submit Button Hover */
+input[type="submit"]:hover {
+  background-color: #154360;
+}
+
+/* 20. Required Fields */
+input:required {
+  border-left: 3px solid #3498db;
+}
+
+/* 21. Responsive Design */
+@media screen and (max-width: 768px) {
+  form {
+    width: 100%;
+  }
+
+  body {
+    padding: 10px;
+  }
+
+  fieldset {
+    padding: 15px;
+  }
+}
